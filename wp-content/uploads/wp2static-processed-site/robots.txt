@@ -1,0 +1,9 @@
+# START YOAST BLOCK
+# ---------------------------
+User-agent: *
+Disallow:
+
+Sitemap: /page-sitemap.xml
+Sitemap: /category-sitemap.xml
+# ---------------------------
+# END YOAST BLOCK
