@@ -1,0 +1,350 @@
+ErrorDocument 404 /404_not_found/index.html
+Redirect 301 /6-1-1-1-1/ /wp-content/uploads/2020/11/6.1.1.1.1.jpg
+Redirect 301 /6-1-1-2-1/ /wp-content/uploads/2020/11/6.1.1.2.1.png
+Redirect 301 /6-1-1-2-2/ /wp-content/uploads/2020/11/6.1.1.2.2.jpg
+Redirect 301 /6-1-1-2-3/ /wp-content/uploads/2020/11/6.1.1.2.3.jpg
+Redirect 301 /6-1-1-2-4/ /wp-content/uploads/2020/11/6.1.1.2.4.jpg
+Redirect 301 /6-1-1-2-6/ /wp-content/uploads/2020/11/6.1.1.2.6.jpg
+Redirect 301 /6-1-1-2-5/ /wp-content/uploads/2020/11/6.1.1.2.5.jpg
+Redirect 301 /6-1-1-2-8/ /wp-content/uploads/2020/11/6.1.1.2.8.jpg
+Redirect 301 /6-1-1-2-10/ /wp-content/uploads/2020/11/6.1.1.2.10.jpg
+Redirect 301 /6-1-1-2-9/ /wp-content/uploads/2020/11/6.1.1.2.9.jpg
+Redirect 301 /6-3-3-1 /wp-content/uploads/2020/11/6.3.3.1.jpg
+Redirect 301 /6-3-3-3 /wp-content/uploads/2020/11/6.3.3.3.jpg
+Redirect 301 /6-3-3-4 /wp-content/uploads/2020/11/6.3.3.4.jpg
+Redirect 301 /6-3-3-5 /wp-content/uploads/2020/11/6.3.3.5.jpg
+Redirect 301 /6-3-3-2 /wp-content/uploads/2020/11/6.3.3.2.jpg
+Redirect 301 /6-3-3-7 /wp-content/uploads/2020/11/6.3.3.7.jpg
+Redirect 301 /6-3-3-6 /wp-content/uploads/2020/11/6.3.3.6.jpg
+Redirect 301 /6-3-3-8 /wp-content/uploads/2020/11/6.3.3.8.jpg
+Redirect 301 /6-3-3-9 /wp-content/uploads/2020/11/6.3.3.9.jpg
+Redirect 301 /6-3-3-13 /wp-content/uploads/2020/11/6.3.3.13.jpg
+Redirect 301 /6-3-3-10 /wp-content/uploads/2020/11/6.3.3.10.jpg
+Redirect 301 /6-3-3-12 /wp-content/uploads/2020/11/6.3.3.12.jpg
+Redirect 301 /6-3-3-11 /wp-content/uploads/2020/11/6.3.3.11.jpg
+Redirect 301 /6-3-3-14 /wp-content/uploads/2020/11/6.3.3.14.jpg
+Redirect 301 /6-3-3-17 /wp-content/uploads/2020/11/6.3.3.17.jpg
+Redirect 301 /6-3-3-15 /wp-content/uploads/2020/11/6.3.3.15.jpg
+Redirect 301 /6-3-3-18 /wp-content/uploads/2020/11/6.3.3.18.jpg
+Redirect 301 /6-3-3-22 /wp-content/uploads/2020/11/6.3.3.22.jpg
+Redirect 301 /6-3-3-20 /wp-content/uploads/2020/11/6.3.3.20.jpg
+Redirect 301 /6-3-3-19 /wp-content/uploads/2020/11/6.3.3.19.jpg
+Redirect 301 /6-3-3-21 /wp-content/uploads/2020/11/6.3.3.21.jpg
+Redirect 301 /6-3-3-23 /wp-content/uploads/2020/11/6.3.3.23.jpg
+Redirect 301 /6-3-3-24 /wp-content/uploads/2020/11/6.3.3.24.jpg
+Redirect 301 /6-3-3-25 /wp-content/uploads/2020/11/6.3.3.25.jpg
+Redirect 301 /6-3-3-26 /wp-content/uploads/2020/11/6.3.3.26.jpg
+Redirect 301 /6-5-1-1-2/ /wp-content/uploads/2020/11/6.5.1.1.2.tif
+Redirect 301 /6-5-1-1-1/ /wp-content/uploads/2020/11/6.5.1.1.1.tif
+
+<If "%{REQUEST_URI} =~ m#^/wp\-content/uploads/simply\-static\.bak/public_static/main\-sitemap\.xsl#i">
+  ForceType "application/xml"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/wp\-content/uploads/simply\-static\.bak/temp\-files/simply\-static\-1\-1732059548/main\-sitemap\.xsl#i">
+  ForceType "application/xml"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/wp\-content/uploads/staatic\.bak/deploy/\.htaccess#i">
+  ForceType "text/html; charset=iso-8859-1"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/wp\-content/uploads/staatic\.bak/deploy/nginx_rules\.conf#i">
+  ForceType "text/plain"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/wp\-content/uploads/staatic\.bak/staging/\.htaccess#i">
+  ForceType "text/html; charset=iso-8859-1"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/wp\-content/uploads/staatic\.bak/staging/nginx_rules\.conf#i">
+  ForceType "text/plain"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/wp\-content/uploads/wp2static\-crawled\-site\.bak/wp\-content/plugins/staatic/vendor/paragonie/random_compat/dist/random_compat\.phar\.pubkey\.asc#i">
+  ForceType "application/pgp-signature"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/wp\-content/uploads/wp2static\-crawled\-site\.bak/wp\-content/plugins/visualizer/vendor/markbaker/matrix/infection\.json\.dist#i">
+  ForceType "application/octet-stream"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/wp\-content/uploads/wp2static\-crawled\-site\.bak/wp\-content/plugins/visualizer/vendor/phpoffice/phpspreadsheet/phpunit\.xml\.dist#i">
+  ForceType "application/octet-stream"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/wp\-content/uploads/wp2static\-crawled\-site\.bak/wp\-content/plugins/visualizer/vendor/phpoffice/phpspreadsheet/samples/Reader/sampleData/example1\.tsv#i">
+  ForceType "text/tab-separated-values"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/wp\-content/uploads/wp2static\-crawled\-site\.bak/wp\-content/plugins/visualizer/vendor/phpoffice/phpspreadsheet/samples/templates/GnumericTest\.gnumeric#i">
+  ForceType "application/x-gnumeric"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/wp\-content/uploads/wp2static\-crawled\-site\.bak/wp\-content/plugins/wordpress\-seo/css/main\-sitemap\.xsl#i">
+  ForceType "application/xml"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/wp\-content/uploads/wp2static\-crawled\-site\.bak/wp\-content/plugins/wp\-nested\-pages/vendor/composer/installers/phpunit\.xml\.dist#i">
+  ForceType "application/octet-stream"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/wp\-content/uploads/wp2static\-crawled\-site\.bak/wp\-content/plugins/wp2static/vendor/wa72/url/phpunit\.xml\.dist#i">
+  ForceType "application/octet-stream"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/wp\-content/uploads/wp2static\-processed\-site\.bak/wp\-content/plugins/staatic/vendor/paragonie/random_compat/dist/random_compat\.phar\.pubkey\.asc#i">
+  ForceType "application/pgp-signature"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/wp\-content/uploads/wp2static\-processed\-site\.bak/wp\-content/plugins/visualizer/vendor/markbaker/matrix/infection\.json\.dist#i">
+  ForceType "application/octet-stream"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/wp\-content/uploads/wp2static\-processed\-site\.bak/wp\-content/plugins/visualizer/vendor/phpoffice/phpspreadsheet/phpunit\.xml\.dist#i">
+  ForceType "application/octet-stream"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/wp\-content/uploads/wp2static\-processed\-site\.bak/wp\-content/plugins/visualizer/vendor/phpoffice/phpspreadsheet/samples/Reader/sampleData/example1\.tsv#i">
+  ForceType "text/tab-separated-values"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/wp\-content/uploads/wp2static\-processed\-site\.bak/wp\-content/plugins/visualizer/vendor/phpoffice/phpspreadsheet/samples/templates/GnumericTest\.gnumeric#i">
+  ForceType "application/x-gnumeric"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/wp\-content/uploads/wp2static\-processed\-site\.bak/wp\-content/plugins/wordpress\-seo/css/main\-sitemap\.xsl#i">
+  ForceType "application/xml"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/wp\-content/uploads/wp2static\-processed\-site\.bak/wp\-content/plugins/wp\-nested\-pages/vendor/composer/installers/phpunit\.xml\.dist#i">
+  ForceType "application/octet-stream"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/wp\-content/uploads/wp2static\-processed\-site\.bak/wp\-content/plugins/wp2static/vendor/wa72/url/phpunit\.xml\.dist#i">
+  ForceType "application/octet-stream"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/wp\-content/plugins/wordpress\-seo/css/main\-sitemap\.xsl#i">
+  ForceType "application/xml"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/comments/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/wp\-json/#i">
+  ForceType "application/json; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/main\-sitemap\.xsl#i">
+  ForceType "text/xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/standar\-1/1\-1/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/standar\-1/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/standar\-2/2\-6/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/standar\-2/2\-2/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/standar\-3/3\-1/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/standar\-2/2\-4/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/standar\-3/3\-4/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/standar\-3/3\-2/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/standar\-4/4\-1/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/standar\-2/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/standar\-4/4\-6/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/standar\-4/4\-2/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/standar\-4/4\-3/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/standar\-4/4\-5/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/standar\-5/5\-2/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/standar\-5/5\-1/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/standar\-5/5\-4/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/standar\-4/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/standar\-6/6\-4/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/standar\-5/5\-6/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/standar\-6/6\-2/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/standar\-5/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/standar\-6/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/standar\-7/7\-2/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/standar\-7/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/standar\-3/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/standar\-4/4\-4/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/standar\-3/3\-3/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/standar\-5/5\-5/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/standar\-2/2\-5/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/standar\-6/6\-1/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/standar\-5/5\-7/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/standar\-7/7\-1/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/standar\-6/6\-3/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/standar\-2/2\-1/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/standar\-2/2\-3/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/standar\-6/6\-5/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/standar\-7/7\-3/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/overview/2/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/standar\-5/5\-3/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/standar\-1/1\-2/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/overview/3/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/overview/1/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/overview/4/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/overview/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/overview/5/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/uncategorized/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/overview/6/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/author/admin/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/overview/7/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
+
+<If "%{REQUEST_URI} =~ m#^/template/feed/#i">
+  ForceType "application/rss+xml; charset=UTF-8"
+</If>
