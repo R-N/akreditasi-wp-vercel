@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Redirecting...</title>
+		<meta http-equiv="refresh" content="0;url=/wp-content/plugins/visualizer/images/ajax-loader.gif">
+	</head>
+	<body>
+		<script type="text/javascript">
+			window.location = "/wp-content/plugins/visualizer/images/ajax-loader.gif";
+		</script>
+
+		<p>You are being redirected to <a href="/wp-content/plugins/visualizer/images/ajax-loader.gif">/wp-content/plugins/visualizer/images/ajax-loader.gif</a></p>
+	</body>
+</html>
