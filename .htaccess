@@ -1,3 +1,6 @@
+
+RewriteCond %{QUERY_STRING} \\?s=([^&]+) [NC]
+RewriteRule ^$ /search/?q=%1 [NC,R,END]
 ErrorDocument 404 /404_not_found/index.html
 Redirect 301 /6-1-1-1-1/ /wp-content/uploads/2020/11/6.1.1.1.1.jpg
 Redirect 301 /6-1-1-2-1/ /wp-content/uploads/2020/11/6.1.1.2.1.png
